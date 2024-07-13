@@ -8,6 +8,7 @@
 html {
     font-family: "Inter", sans-serif;
     background: var(--dark-color);
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -19,13 +20,36 @@ h1 {
     line-height: 86px;
 }
 
+h2 {
+    color: var(--text-color);
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 78px;
+}
+
+h3 {
+    color: var(--text-color);
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 68px;
+}
+
 p {
     color: var(--text-color);
-    text-align: center;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+}
+
+.p-centering {
+    text-align: center;
+}
+
+.h3-centering {
+    text-align: center;
 }
 
 .main-header {
@@ -77,4 +101,52 @@ p {
     border: 0;
     border-radius: 4px;
     background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
+}
+
+.about-us-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-us-section-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 428px;
+}
+
+.about-us-section-first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    box-sizing: border-box;
+}
+
+.about-us-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+}
+
+.about-us-article:hover {
+    background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
+    border-radius: 4px;
+}
+
+.divider-about-us-article {
+    width: 2px;
+    background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
+    height: 176px;
+}
+
+.large-div {
+    height: 2px;
+    background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
+    margin: 24px 194px;
 }
