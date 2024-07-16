@@ -5,6 +5,12 @@
     --text-color: #fff
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-family: "Inter", sans-serif;
     background: var(--dark-color);
@@ -36,12 +42,24 @@ h3 {
     line-height: 68px;
 }
 
+h4 {
+    color: var(--text-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
 p {
     color: var(--text-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+}
+
+a {
+    color: var(--text-color);
 }
 
 .p-centering {
@@ -82,10 +100,10 @@ p {
 
 .welcome-section {
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
     margin: 0 428px;
-    gap: 48px;
     height: 100vh;
 }
 
@@ -105,8 +123,9 @@ p {
 
 .about-us-section {
     display: flex;
+    height: 100vh;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .about-us-section-intro {
@@ -149,4 +168,44 @@ p {
     height: 2px;
     background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
     margin: 24px 194px;
+}
+
+.section-main-market {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-section-market {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 124px;
+}
+
+.hero-test {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -100;
+}
+
+.markets-article {
+    margin: 124px;
+    display: flex;
+    justify-content: space-between;
+    gap: 204px;
+}
+
+.section-market-info {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.learn-more-nav {
+    display: flex;
+    gap: 8px;
+    align-items: center;
 }
