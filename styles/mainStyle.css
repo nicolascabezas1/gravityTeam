@@ -20,42 +20,42 @@ html {
 h1 {
     color: var(--text-color);
     text-align: center;
-    font-size: 76px;
+    font-size: 4.75rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 86px;
+    line-height: 5.37rem;
 }
 
 h2 {
     color: var(--text-color);
-    font-size: 56px;
+    font-size: 3.5rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 78px;
+    line-height: 4.87rem;
 }
 
 h3 {
     color: var(--text-color);
-    font-size: 38px;
+    font-size: 2.37rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 68px;
+    line-height: 4.25rem;
 }
 
 h4 {
     color: var(--text-color);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 28px;
+    line-height: 1.75rem;
 }
 
 p {
     color: var(--text-color);
-    font-size: 18px;
+    font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.875rem;
 }
 
 a {
@@ -64,18 +64,18 @@ a {
 
 strong {
     color: var(--text-color);
-    font-size: 18px;
+    font-size: 1.125rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 23px;
+    line-height: 1.438rem;
 }
 
 small {
     color: var(--text-color);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 300;
-    line-height: 18px;
+    line-height: 1.125rem;
 }
 
 .p-centering {
@@ -90,28 +90,28 @@ small {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 64px;
+    padding: 1.5rem 4rem;
 }
 
 .main-header-menu {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .header-links {
     text-decoration: none;
     color: var(--text-color);
-    font-size: 15px;
+    font-size: 0.938rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    padding: 8px;
+    line-height: 1.5rem;
+    padding: 0.5rem;
 }
 
 .header-links:hover {
     background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
-    border-radius: 4px;
+    border-radius: 0.25rem;
 }
 
 .welcome-section {
@@ -119,21 +119,21 @@ small {
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    margin: 0 428px;
+    margin: 0 26.75rem;
     height: 100vh;
 }
 
 .principal-button {
     width: fit-content;
-    padding: 18px;
+    padding: 1.12rem;
     color: var(--text-color);
     font-family: "Inter", sans-serif;
-    font-size: 19px;
+    font-size: 1.19rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 22px;
+    line-height: 1.37rem;
     border: 0;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
 }
 
@@ -148,14 +148,14 @@ small {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 428px;
+    margin: 0 26.75rem;
 }
 
 .about-us-section-first-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18px;
+    gap: 1.125rem;
     box-sizing: border-box;
 }
 
@@ -163,27 +163,27 @@ small {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2px;
+    padding: 0.125rem;
     align-items: center;
-    width: 300px;
-    height: 250px;
+    width: 18.75rem;
+    height: 15.625rem;
 }
 
 .about-us-article:hover {
     background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
-    border-radius: 4px;
+    border-radius: 0.25rem;
 }
 
 .divider-about-us-article {
-    width: 2px;
+    width: 0.125rem;
     background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
-    height: 176px;
+    height: 11rem;
 }
 
 .large-div {
-    height: 2px;
+    height: 0.125rem;
     background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
-    margin: 24px 194px;
+    margin: 1.5rem 12.12rem;
 }
 
 .section-main-market {
@@ -196,8 +196,8 @@ small {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24px;
-    margin-bottom: 124px;
+    gap: 1.5rem;
+    margin-bottom: 7.75rem;
 }
 
 .hero-test {
@@ -208,27 +208,27 @@ small {
 }
 
 .markets-article {
-    margin: 124px;
+    margin: 7.75rem;
     display: flex;
     justify-content: space-between;
-    gap: 204px;
+    gap: 12.75rem;
     height: 100%;
 }
 
 .section-market-info {
     display: flex;
     flex-direction: column;
-    gap: 34px;
+    gap: 2.12rem;
 }
 
 .learn-more-nav {
     display: flex;
-    gap: 8px;
+    gap: 0.5rem;
     align-items: center;
 }
 
 .our-partners-section {
-    margin: 194px;
+    margin: 12.12rem;
     display: flex;
     height: 100vh;
     justify-content: space-between;
@@ -242,30 +242,55 @@ small {
 .article-good-company {
     display: flex;
     flex-direction: column;
-    margin: 0 194px;
+    margin: 0 12.12rem;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 38px;
+    gap: 2.37rem;
 }
 
 .div-brands {
-    border: 1px solid rgba(65, 85, 114, 0.50);
+    border: 0.063rem solid rgba(65, 85, 114, 0.50);
     background: linear-gradient(180deg, rgba(65, 85, 114, 0.15) 0%, rgba(27, 27, 30, 0.10) 100%);
-    border-radius: 4px;
-    width: 192px;
-    padding: 56px 56px 25px 56px;
-    margin: 16px;
+    border-radius: 0.25rem;
+    width: 12rem;
+    padding: 3.5rem 3.5rem 1.56rem 3.5rem;
+    margin: 1rem;
 }
 
 .bottom-navigation {
     display: flex;
-    gap: 34px;
+    gap: 2.125rem;
 }
 
 .footer-company {
     display: flex;
-    gap: 16px;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
+}
+
+.join-team-section {
+    display: flex;
+    margin: 12.12rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22.125rem;
+}
+
+.info-join {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact-us-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 28.37rem;
+    gap: 1.5rem;
 }
